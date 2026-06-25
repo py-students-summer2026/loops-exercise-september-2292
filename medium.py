@@ -118,6 +118,9 @@ def nine():
 
 def ten(list_1, list_2):
     print("\nmedium.ten:")
+    print("List 1: " + str(list_1))
+    print("List 2: " + str(list_2))
+
     i = 0
     printed = []
     while i < len(list_1):
@@ -125,6 +128,6 @@ def ten(list_1, list_2):
         if compare in list_2:
             printed.append(compare)
         i = i + 1
-    print("Common values: " + str(printed))
+    print("Common values between the two lists: " + str(printed))
 
 
